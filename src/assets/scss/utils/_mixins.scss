@@ -1,0 +1,8 @@
+@function lineheight($fsz,$lh) {
+    @return ($lh / $fsz);
+}
+
+@mixin lineheight($fsz,$lh) {
+    line-height: fsz-to-lh($fsz,$lh);
+}
+  
