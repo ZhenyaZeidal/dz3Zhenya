@@ -12,7 +12,7 @@
 
     &__title  {
         font-weight: bold;
-        font-size: 55px;
+        font-size: 5.5rem;
         line-height: 1.38;
         max-width: 55rem;
         padding-bottom: 2rem;
@@ -46,6 +46,7 @@
         right: -15rem;
         bottom: 0;
         max-height: 52rem;
+        max-width: 100%;
 
     }
 
@@ -64,4 +65,42 @@
 .orange {
     color: #F3AF47;
     
+}
+
+@media (max-width:1023px) {
+    &__title {
+        font-size: 4.2rem;
+    }
+
+}
+
+@media (max-width:768px) {
+    &__title {
+        font-size: 4.2rem;
+    }
+
+    .main-section__title {
+        max-width: 100%;
+    }
+
+    .main-section__img {
+        position: static;
+        max-height: 100%;
+    }
+
+}
+
+@media (max-width:426px) {
+    &__title {
+        font-size: 3.5rem;
+    }
+
+}
+
+
+@media (max-width:321px) {
+    &__title {
+        font-size: 2.4rem;
+    }
+
 }
