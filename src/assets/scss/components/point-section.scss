@@ -4,12 +4,14 @@
     background: $c-secondary;
     position: relative;
     margin-bottom: 30rem;
+    
 }
 
 .point-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 
     div {
         flex: 50%;
@@ -32,12 +34,14 @@
         letter-spacing: 0.2px;
         color: $c-text;
         
+        
     }
 
     p {
         font-size: 1.6rem;
         line-height: 150%;
         color: $c-text2;
+        margin-top: 3rem;
     }
 }
 
@@ -46,8 +50,8 @@
     box-shadow: 0px 8px 32px rgba(15, 35, 54, 0.06);
     border-radius: 8px;
     position: absolute;
-    top: 25rem;
-    left: 25rem;
+    top: 20rem;
+    left: 22rem;
     margin-bottom: 2rem;
     padding: 4rem;
     
@@ -64,6 +68,7 @@
         font-size: 16px;
         line-height: 150%;
         color: $c-text2;
+        margin-top: 3rem;
     }
 }
 
@@ -89,5 +94,6 @@
         font-size: 1.6rem;
         line-height: 150%;
         color: $c-text2;
+        margin-top: 3rem;
     }
 }
