@@ -1,0 +1,93 @@
+@import '../utils/parameters';
+
+.point-section {
+    background: $c-secondary;
+    position: relative;
+    margin-bottom: 30rem;
+}
+
+.point-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        flex: 50%;
+    }
+}
+
+.point1 {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(15, 35, 54, 0.06);
+    border-radius: 8px;
+    position: absolute;
+    top: -8rem;
+    left: 20rem;
+    margin-bottom: 2rem;
+    padding: 4rem;
+
+    span {
+        font-size: 2.5rem;
+        line-height: 100%;
+        letter-spacing: 0.2px;
+        color: $c-text;
+        
+    }
+
+    p {
+        font-size: 1.6rem;
+        line-height: 150%;
+        color: $c-text2;
+    }
+}
+
+.point2 {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(15, 35, 54, 0.06);
+    border-radius: 8px;
+    position: absolute;
+    top: 25rem;
+    left: 25rem;
+    margin-bottom: 2rem;
+    padding: 4rem;
+    
+
+    span {
+        font-size: 2.5rem;
+        line-height: 100%;
+        letter-spacing: 0.2px;
+        color: $c-text;
+        
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 150%;
+        color: $c-text2;
+    }
+}
+
+.point3 {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(15, 35, 54, 0.06);
+    border-radius: 8px;
+    position: absolute;
+    top: 50rem;
+    left: 20rem;
+    margin-bottom: 2rem;
+    padding: 4rem;
+
+    span {
+        font-size: 2.5rem;
+        line-height: 100%;
+        letter-spacing: 0.2px;
+        color: $c-text;
+        
+    }
+
+    p {
+        font-size: 1.6rem;
+        line-height: 150%;
+        color: $c-text2;
+    }
+}

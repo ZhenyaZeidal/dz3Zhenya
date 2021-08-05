@@ -1,0 +1,64 @@
+@import '../utils/parameters';
+
+.work-section {
+    position: relative;
+    margin-bottom: 30rem;
+
+    .container {
+        background: $c-secondary;
+        border-radius: 5rem;
+        padding: 10rem ;
+
+    }
+    
+}
+
+.border {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+    
+    
+}
+
+.work-section-img {
+    flex: 50%;
+
+    p {
+        font-size: 1.8rem;
+        line-height: 100%;
+        color: $c-text2;
+        margin-bottom: 3rem;
+    }
+
+    h2 {
+        font-weight: 900;
+        font-size: 4rem;
+        line-height: 138%;
+        color: $c-text;
+        margin-bottom: 3rem;
+    }
+    
+}
+
+.phone {
+    position: absolute;
+    z-index: 1;
+    bottom: -15rem;
+    left: 7rem;
+}
+
+.glass {
+    position: absolute;
+    bottom: -8rem;
+    left: -8rem;
+}
+
+.snack {
+    position: absolute;
+    z-index: 2;
+    bottom: -15rem;
+    left: 25rem;
+}

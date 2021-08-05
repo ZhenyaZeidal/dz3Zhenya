@@ -1,0 +1,38 @@
+@import '../utils/parameters';
+
+.order-section {
+    margin-bottom: 20rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.li {
+    margin-right: 1rem;
+}
+
+.order-img {
+    padding-top: 3rem;
+}
+
+.order-head {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%; 
+    letter-spacing: 0.2px;
+    color: $c-text;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 150%;
+    color: $c-text2;
+}
+
+
