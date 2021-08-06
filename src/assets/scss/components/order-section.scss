@@ -6,13 +6,14 @@
 
 .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-right: 1rem;
 }
 
 .li {
     margin-right: 1rem;
+    flex: 33.3333%;
 }
 
 .order-img {
@@ -21,7 +22,7 @@
 
 .order-head {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 2.5rem;
     line-height: 130%; 
     letter-spacing: 0.2px;
     color: $c-text;
@@ -36,3 +37,14 @@
 }
 
 
+@media (max-width:575px) {
+    .row {
+        display: block;
+        
+    }
+
+    .order-head {
+        font-size: 2rem;
+    }
+
+}

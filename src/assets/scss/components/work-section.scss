@@ -1,14 +1,15 @@
 @import '../utils/parameters';
 
 .work-section {
-    position: relative;
+      
     margin-bottom: 30rem;
 
     .container {
         background: $c-secondary;
         border-radius: 5rem;
         padding: 10rem ;
-
+      
+        
     }
     
 }
@@ -17,15 +18,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
-    
-    
-    
+            
 }
 
-.work-section-img {
-    flex: 50%;
 
+.work-section-text   {
+    flex: 50%;
+    
+    
     p {
         font-size: 1.8rem;
         line-height: 100%;
@@ -43,22 +43,70 @@
     
 }
 
+.work-section-img {
+    position: relative;
+    flex: 50%;
+}
 .phone {
     position: absolute;
     z-index: 1;
-    bottom: -15rem;
+    bottom: -30rem;
     left: 7rem;
+    max-width: 100%;
 }
 
 .glass {
     position: absolute;
-    bottom: -8rem;
+    bottom: -15rem;
     left: -8rem;
+    max-width: 100%;
 }
 
 .snack {
     position: absolute;
     z-index: 2;
-    bottom: -15rem;
+    bottom: -30rem;
     left: 25rem;
+    max-width: 100%;
+}
+
+@media (max-width:1024px) {
+        
+    h2 {
+        font-size: 3rem;
+    }
+    .border {
+        display: block;
+    }
+
+    .phone {
+        position: static;
+        
+    }
+    .glass {
+        position: static;
+        
+    }
+
+    .snack {
+        position: static;
+    }
+
+    .work-section-img {
+        margin-bottom: 20rem;
+    }
+    
+    
+    
+}
+
+@media (max-width:767px) {
+        
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+
+    
+    
 }

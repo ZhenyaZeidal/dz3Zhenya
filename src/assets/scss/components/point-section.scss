@@ -2,8 +2,8 @@
 
 .point-section {
     background: $c-secondary;
-    position: relative;
     margin-bottom: 30rem;
+    
     
 }
 
@@ -11,11 +11,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
+    
 
-    div {
-        flex: 50%;
-    }
+    
+}
+
+.point-section-ul {
+    flex: 50%;
+    position: relative;
 }
 
 .point1 {
@@ -23,8 +26,8 @@
     box-shadow: 0px 8px 32px rgba(15, 35, 54, 0.06);
     border-radius: 8px;
     position: absolute;
-    top: -8rem;
-    left: 20rem;
+    top: -40rem;
+    left: -10rem;
     margin-bottom: 2rem;
     padding: 4rem;
 
@@ -50,8 +53,8 @@
     box-shadow: 0px 8px 32px rgba(15, 35, 54, 0.06);
     border-radius: 8px;
     position: absolute;
-    top: 20rem;
-    left: 22rem;
+    top: -10rem;
+    left: 0;
     margin-bottom: 2rem;
     padding: 4rem;
     
@@ -77,8 +80,8 @@
     box-shadow: 0px 8px 32px rgba(15, 35, 54, 0.06);
     border-radius: 8px;
     position: absolute;
-    top: 50rem;
-    left: 20rem;
+    top: 20rem;
+    left: -10rem;
     margin-bottom: 2rem;
     padding: 4rem;
 
@@ -96,4 +99,32 @@
         color: $c-text2;
         margin-top: 3rem;
     }
+}
+
+.point-img {
+    max-width: 100%;
+    
+}
+
+@media (max-width:1024px) {
+    .point-main {
+        display: block;
+    }
+
+    .point1 {
+        position: static;
+    }
+
+    .point2 {
+        position: static;
+    }
+
+    .point3 {
+        position: static;
+    }
+
+    .point-section {
+        overflow: hidden;
+    }
+
 }
