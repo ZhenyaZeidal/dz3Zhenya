@@ -27,6 +27,7 @@
     .logo {
 
         &__img {
+            max-width: 100%;
         }
 
     }
@@ -50,9 +51,9 @@
     
 }
 
-@media (max-width:424px) {
-    &__row {
-        justify-content: center;
+@media (max-width:575px) {
+    .logo {
+        margin-bottom: 5rem;
     }
 
 }

@@ -1,11 +1,11 @@
 section.order-section 
     .container
-        div.row
+        div.order-section__row
             mixin item(img, title, text)
-                div.li 
-                    img(src=img, alt="row").order-img
-                    div.order-head=title
-                    div.text=text
+                div.order-section__mixit
+                    img(src=img, alt="row").order-section__img
+                    div.order-section__head=title
+                    div.order-section__description
             +item('./assets/imgs/row1.svg', 'Order ahead, skip the line', 'Feel like a rock star when you bypass the line and save a bunch of time.')
             +item('./assets/imgs/row2.svg', 'Bonus and discounts', 'You can enjoy lots of discounts from the selected stores, or accumulate points.')
             +item('./assets/imgs/row3.svg', 'Share with your friends', 'Send gifts to your friends and family, and pick up for your coworkers when they can not get away.')

@@ -3,17 +3,14 @@
 .point-section {
     background: $c-secondary;
     margin-bottom: 30rem;
-    
-    
+   
 }
 
 .point-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-
-    
+        
 }
 
 .point-section-ul {
@@ -21,13 +18,13 @@
     position: relative;
 }
 
-.point1 {
+.point.point--first {
     background: #FFFFFF;
     box-shadow: 0px 8px 32px rgba(15, 35, 54, 0.06);
     border-radius: 8px;
     position: absolute;
     top: -40rem;
-    left: -10rem;
+    left: 0;
     margin-bottom: 2rem;
     padding: 4rem;
 
@@ -48,18 +45,18 @@
     }
 }
 
-.point2 {
+.point.point--second {
     background: #FFFFFF;
     box-shadow: 0px 8px 32px rgba(15, 35, 54, 0.06);
     border-radius: 8px;
     position: absolute;
     top: -10rem;
-    left: 0;
+    left: 10rem;
     margin-bottom: 2rem;
     padding: 4rem;
     
 
-    span {
+    .point-title {
         font-size: 2.5rem;
         line-height: 100%;
         letter-spacing: 0.2px;
@@ -67,7 +64,7 @@
         
     }
 
-    p {
+    .poimt-text {
         font-size: 16px;
         line-height: 150%;
         color: $c-text2;
@@ -75,13 +72,13 @@
     }
 }
 
-.point3 {
+.point.point--third {
     background: #FFFFFF;
     box-shadow: 0px 8px 32px rgba(15, 35, 54, 0.06);
     border-radius: 8px;
     position: absolute;
     top: 20rem;
-    left: -10rem;
+    left: 0;
     margin-bottom: 2rem;
     padding: 4rem;
 
@@ -111,17 +108,24 @@
         display: block;
     }
 
-    .point1 {
+    .point.point--first {
         position: static;
     }
 
-    .point2 {
+    .point.point--second {
         position: static;
     }
-
-    .point3 {
+    
+    .point.point--third {
         position: static;
     }
 
     
+}
+
+@media (max-width:768px) {
+    .point-section {
+    margin-bottom: 10rem;
+
+    }
 }

@@ -1,39 +1,44 @@
 @import '../utils/parameters';
 
-.gifts {
+.gifts-section {
+    margin-bottom: 15rem;
+}
+
+.gifts-section__nav {
     background: $c-secondary;
     border-radius: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10rem;
-    margin-bottom: 30rem;
+    
 }
 
 
 
-.gifts-text {
+.gifts-section__text {
     flex: 50%;
     
 
 
-    p {
+    .gifts-text {
         font-size: 1.8rem;
         line-height: 100%;
         color: $c-text2;
         margin-bottom: 3rem;
     }
 
-    h2 {
+    .gifts-title {
         font-weight: 900;
         font-size: 4rem;
         line-height: 138%;
         color: $c-text;
         margin-bottom: 3rem;
+        max-width: 30rem;
     }
 }
 
-.gifts-text-img {
+.gifts-section__img {
     flex: 50%;
     position: relative;
 }
@@ -48,9 +53,31 @@
 
 
 @media (max-width:1024px) {
-    h2 {
-        font-size: 1rem;
+    
+    .gifts-section  {
+        margin-bottom: 15rem;
     }
+
+    
+    .gift-img {
+        position: static;
+    }
+}
+
+@media (max-width:768px) {
+    .gifts-section__nav {
+        display: block;
+        padding: 5rem;
+    }
+
+    .gifts-section__text .gifts-title {
+        font-size: 2.8rem;
+    }
+
+    .gifts-section {
+        margin-bottom: 10rem;
+    }
+
 }
 
 
